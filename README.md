@@ -1,11 +1,6 @@
-# Translation_Data
+- Translation_Data
 Convert farmer details from English to different languages.
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-```
+
 
 ## IMPLEMENTATION:
 ## --------------------------------------------------------------------------------------------------------------------------------------
