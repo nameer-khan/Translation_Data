@@ -1,8 +1,14 @@
 # Translation_Data
 Convert farmer details from English to different languages.
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+```
 
 ## IMPLEMENTATION:
-## ----------------------------------------------------------------
+## --------------------------------------------------------------------------------------------------------------------------------------
 ### STEP 1 - UPLOAD CSV
 ##### 1. First step is to create upload CSV mechanism, which is done in the uploadcsv() function. 
 ##### 2.Streamlit has the functionality to help with the upload mechanism, we can mention explicitly the type of file that we have to upload and look for. 
@@ -27,7 +33,7 @@ Convert farmer details from English to different languages.
 ##### 1. Now we have created a class FileDownloader with the constructor and function download()
 ##### 2. Provide the hyperlink properties and name in the href variable which will be passed in streamlits markdown() function
 ##### 3. Give the filename, and pass it streamlit function markdown()
-##-----------------------------------------------------------------------------------
+## ---------------------------------------------------------------------------------------------------------------------------------------
 
 
 ## We are done with the implementation
