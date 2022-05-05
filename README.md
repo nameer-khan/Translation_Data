@@ -1,14 +1,20 @@
-Translation_Data
-Convert farmer details from English to different languages.
+# Translation_Data
 
+
+```diff
+
++ Convert farmer details from English to different languages.
+
+```
 
 ## IMPLEMENTATION:
 ## --------------------------------------------------------------------------------------------------------------------------------------
+```diff
 ### STEP 1 - UPLOAD CSV
 ##### 1. First step is to create upload CSV mechanism, which is done in the uploadcsv() function. 
 ##### 2.Streamlit has the functionality to help with the upload mechanism, we can mention explicitly the type of file that we have to upload and look for. 
 ##### 3.We have mentioned csv for the same. After the file uploads , the resultant dataframe is made using pandas library and we display the same dataframe on the web app.
-
+```
 ### STEP 2 - CHOOSE LANGUAGE FROM MENU
 ##### 1. Now we create the dropdown bar, which displays the languages Hindi, Punjab, Telugu and Marathi. 
 ##### 2. The function choose_language() with parameters (list_of_language,list_code_language) does the job. 
