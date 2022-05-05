@@ -51,6 +51,9 @@
 
 
 ## ------------------------------------------------------------------------------------
+# Before running make sure these libs are installed
+## 1. pip install googletrans==4.0.0-rc1
+## 2. pip install streamlit
 
 # To Run , simply open command prompt, or anaconda prompt if using Anaconda, go to directory you have saved the files in, and run command
 # streamlit run SDETask.py
