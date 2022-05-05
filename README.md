@@ -33,8 +33,10 @@
 ##### 3. Parameters provided are the dataframe, and the language code we got from previous step.
 ##### 4. We simply iterate over columns whose value is not of type int64 and get unique elements list from each column.
 ##### 5. Now translate each element from this list by passing it to the translate's objects' function which is translate as parameter and mention the destination language code 
-##### 6. Save the result to a dictionary
-##### 7. Reflect the changes back to dataframe using the dictionary
+##### 6. Response looks like this 
+##### Translated(src=en, dest=pa, text=ਅੰਗਰੇਜ਼ੀ, pronunciation=Agarēzī, extra_data="{'confiden...")
+##### 7. Save the result to a dictionary
+##### 8. Reflect the changes back to dataframe using the dictionary
 
 
 
