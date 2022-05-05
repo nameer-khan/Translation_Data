@@ -8,7 +8,7 @@
 ```
 
 ## IMPLEMENTATION:
-## ------------------------------------------------------------------------------------------------------
+## -----------------------------------------------------------------------------------------
 
 
 ### STEP 1 - UPLOAD CSV
@@ -42,19 +42,19 @@
 ##### 1. Now we have created a class FileDownloader with the constructor and function download()
 ##### 2. Provide the hyperlink properties and name in the href variable which will be passed in streamlits markdown() function
 ##### 3. Give the filename, and pass it streamlit function markdown()
-## -------------------------------------------------------------------------------------------------------
+## ----------------------------------------------------------------------------------------
 
 
 ## We are done with the implementation
 
 
-## -------------------------------------------------------------------------------------------------------
+## ----------------------------------------------------------------------------------------
 
 # To Run , simply open command prompt, or anaconda prompt if using Anaconda, go to directory you have saved the files in, and run command
 # streamlit run SDETask.py
 # it will automatically open and redirect to http://localhost:8501/ with the frontend mechanism
 
-## -------------------------------------------------------------------------------------------------------
+## ----------------------------------------------------------------------------------------
 
 ## SNAPSHOTS: 
 ![1](https://user-images.githubusercontent.com/45340840/166883118-d1b5e21c-83e2-4ee3-8fc4-d503c81674d9.png)
